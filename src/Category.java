@@ -1,13 +1,25 @@
 public class Category extends ProductComponent {
 
-    @Override
-    public String getName() {
-        return "";
+    String name;
+    String Category;
+    Double price;
+
+    public Category(String name, String Category, double price) {
+
+        this.name = name;
+        this.Category = Category;
+        this.price = price;
+
     }
 
     @Override
-    public String getPrice() {
-        return "";
+    public String getName() {
+        return this.name;
+    }
+
+    @Override
+    public double getPrice() {
+        return this.price;
     }
 
     public void add(){
@@ -15,6 +27,7 @@ public class Category extends ProductComponent {
     }
 
     public void display(){
+        //method to show the product’s details (e.g., name and price).
 
     }
 
