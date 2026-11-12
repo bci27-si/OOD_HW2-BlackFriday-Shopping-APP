@@ -11,6 +11,14 @@ public class Main_App {
         // Customer Instances
 
 
+        // main goes through Blackfridays deals class to Customer class
+
+        // main directly goes to Category class
+
+        System.out.println("Black Friday Deals: ");
+        System.out.println("Category Name: ");
+        System.out.println("ProductDeals: ");
+
 
     }
 

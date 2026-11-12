@@ -2,6 +2,6 @@ public abstract class ProductComponent {
 
     public abstract String getName();
 
-    public abstract String getPrice();
+    public abstract double getPrice();
 
 }

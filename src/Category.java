@@ -1,13 +1,15 @@
 public class Category extends ProductComponent {
 
+
+
     String name;
-    String Category;
+    //String Category;
     Double price;
 
     public Category(String name, String Category, double price) {
 
         this.name = name;
-        this.Category = Category;
+        //this.Category = Category;
         this.price = price;
 
     }
@@ -28,6 +30,8 @@ public class Category extends ProductComponent {
 
     public void display(){
         //method to show the product’s details (e.g., name and price).
+        getName();
+        getPrice();
 
     }
 
